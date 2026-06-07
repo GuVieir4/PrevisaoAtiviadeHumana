@@ -68,7 +68,7 @@ AXIS_MEANINGS = {
 
 @st.cache_resource
 def load_model():
-    if       MODEL_PATH.exists():
+    if not MODEL_PATH.exists():
         st.error("Modelo nao encontrado. Rode primeiro: python train_model.py")
         st.stop()
     return joblib.load(MODEL_PATH)
