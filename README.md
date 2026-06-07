@@ -1,5 +1,9 @@
 # Preditor de Atividade Humana
 
+## Deploy
+
+Aplicacao publicada no Streamlit: https://previsao-atividade-humana.streamlit.app/
+
 ## Estrutura
 
 ```text
